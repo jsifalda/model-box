@@ -1,0 +1,36 @@
+{
+  "name": "model-box",
+  "version": "0.0.1",
+  "description": "Simple lib which help you to wrap your model into independent boxes",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf ./lib && ./node_modules/.bin/babel -e 0 ./src --out-dir ./lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsifalda/model-box.git"
+  },
+  "keywords": [
+    "model",
+    "wrapper",
+    "logic",
+    "boxes'"
+  ],
+  "author": "Jiri Sifalda <sifalda.jiri@gmail.com> (http://jsifalda.name/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsifalda/model-box/issues"
+  },
+  "homepage": "https://github.com/jsifalda/model-box#readme",
+  "dependencies": {
+    "joi": "^6.6.1",
+    "waterfally": "^0.1.0"
+  },
+  "devDependencies": {
+    "babel": "^5.8.3"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  }
+}
